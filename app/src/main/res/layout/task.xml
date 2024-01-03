@@ -1,0 +1,27 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/newtask"
+        android:background="@null"
+        android:hint="Write the task to be remember"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <Button
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/newtaskbutton"
+            android:text="Add"
+            android:layout_gravity="end"
+            android:textAllCaps="false"
+            android:layout_marginEnd="20dp"
+            android:background="@drawable/buttnbg"/>
+
+    </LinearLayout>
+
+</LinearLayout>
